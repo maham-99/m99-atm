@@ -30,6 +30,7 @@ let operationAns = await inquirer.prompt([
 if (operationAns.operation === "withdraw") {
   let amountAns = await inquirer.prompt([
     {
+      
       name: "amount",
       message: "enter the amount",
       type: "number",
